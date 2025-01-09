@@ -1,0 +1,103 @@
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  /* -weighfontt: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-primary{
+  color: rgb(253, 110, 10);
+}
+
+/* #na dile ei code kaj korbe nah  */
+/* color maje modde a tag er modde diye dite pari onek somoi  */
+.dark2{
+  color: #474747;
+}
+/* color kaj korle etar aghe ekta color er box chole asbhe  */
+.btn-primary{
+  background-color: rgb(253, 110, 10);
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 20px 35px;
+  border-radius: 5px;
+}
+
+/* header// shob text aghe tule nibo, er por web page er margin niye kaj korbo */
+/* background image dithe hole url use korte hoi bro */
+.header{
+  background-image: url(../images/developer.png),url(../images/header_bg.png);
+  /* dui background image use korlalm ki moja */
+  background-repeat: no-repeat;
+  background-position: left top,right bottom;
+
+}
+
+
+
+/* nav styles */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+/* same code shon ek jai ghai rakhbo   */
+
+nav ul{
+  display: flex;
+  align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 26px;
+  
+}
+
+nav li a {
+  text-decoration: none;
+ text-size:20px;
+}
+
+/* banner styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 20px;
+  
+}
+
+.banner-content{
+  max-width: 585px;
+
+}
+
+.banner-greetings{
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-title{
+  font-size: 85px;
+font-weight: bold;
+color: #181818;
+}
+
+.banner-description{
+  font-size: 18px;
+}
+
+.banner-profile-pic{
+  width: 584px;
+  height: 686;
+}
